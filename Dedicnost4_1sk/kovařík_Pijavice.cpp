@@ -4,7 +4,7 @@
 pijavice::pijavice(const std::string& name, int age, const std::string& breed)
     : Animal(name, age, 0), mBreed(breed)
 {
-    std::cout << "Dog constructor called for " << mName << '\n';
+    std::cout << "Pijavice called for" << mName << '\n';
 }
 
 pijavice::~pijavice() = default;
