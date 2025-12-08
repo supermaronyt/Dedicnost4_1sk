@@ -5,6 +5,7 @@
 #include <algorithm>
 #include "Dog.h"
 #include "Cat.h"
+#include "elephant.h"
 
 //5 % 2 = 1  // 2 * 2 + 1
 //7 % 5 = 2  // 5 * 1 + 2
@@ -31,22 +32,25 @@ void writeArrayCondition(int arr[], int size)
 
 int main()
 {
-    //martin
-	printf("Jakub");
 	//tohle je okupace
 	////vytvoreni instance tridy Animal
 	//Animal animal("Generic Animal", 5, 20);
 	//std::cout << "Jmeno: " << animal.getName() << ", Vek: " << animal.getAge() << '\n';
 	//animal.speak();
 
-	Cat whiskers("Whiskers", 3, 10, "White", 7);
+	Elephant dumbo(4);
+	dumbo.speak();
+	dumbo.mCountry = "India";
+	std::cout << "Elephant can carry " << dumbo.getCapacityOfPeople() << " people from " << dumbo.mCountry << '\n';
+
+	/*Cat whiskers("Whiskers", 3, 10, "White", 7);
 	whiskers.speak();
 
 	Cat* catPtr = new Cat("Mittens", 2, 8, "Black", 5);
 	catPtr->speak();
 
     Animal* a = &whiskers;
-    a->speak();
+    a->speak();*/
 
 	////dynamicka alokace pameti pro objekt tridy Animal
 	//Animal* animal1 = new Animal("Generic Animal", 5, 20);
