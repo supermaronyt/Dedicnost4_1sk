@@ -32,6 +32,7 @@ void writeArrayCondition(int arr[], int size)
 
 int main()
 {
+    //skuska git
 	//tohle je okupace jjjj
 	////vytvoreni instance tridy Animal
 	//Animal animal("Generic Animal", 5, 20);
