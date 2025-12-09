@@ -129,8 +129,10 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Dog.cpp" />
     <ClCompile Include="kovarik_Pijavice.cpp" />
+    <ClCompile Include="Nedbaldalibor.cpp" />
     <ClInclude Include="elephant.h" />
     <ClInclude Include="monkeyKrautschneider.cpp" />
+    <ClInclude Include="Nedbaldalibor.h" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Animal.h" />
